@@ -1,0 +1,26 @@
+.form{
+    margin: 5%;
+}
+.search{
+    display: flex;
+    justify-content: center;
+}
+
+.bar{
+    margin: 5%;
+    height: 25px;
+    width: 400px;
+    min-width: 100px;
+}
+.inputBar{
+    height: 100%;
+    width: 84%;
+    border: 1px solid rgb(125,89,191,.5);
+    border-radius: 15px;
+    font-size: 20px;
+}
+.button{
+    border-radius: 50px;
+    font-size: 12px;
+    width: 14%;
+}

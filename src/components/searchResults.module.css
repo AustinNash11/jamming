@@ -1,0 +1,32 @@
+.div{
+    background-color: rgb(125,89,191,.75);
+    display: block;
+    border-radius: 15px;
+    min-height: 350px;
+    max-height: 350px;
+    min-width: 150px;
+    overflow-y: scroll;
+}
+.header{
+    color:aliceblue;
+    text-align: center;
+}
+.containSong{
+    margin-top: 5%;
+    color: aliceblue;
+    border-bottom: 2px solid rgba(200, 194, 235, 0.87);
+    border-radius: 5px;
+}
+.song{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+}
+.addButton{
+    color:aliceblue;
+}
+
+.addButton:hover{
+    color: grey;
+    cursor: pointer;
+}
