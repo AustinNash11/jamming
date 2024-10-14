@@ -46,7 +46,7 @@ const Spotify = {
     },
     savePlaylist(name, trackUris) {
         if (!name) {
-          alert('Enter Playlist Name');
+            return alert('Enter Playlist Name');
         }
     
         const accessToken = Spotify.getAccessToken();
