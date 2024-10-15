@@ -2,7 +2,6 @@ const clientId = "0abba87051bf4687944aeb99af6d15c9";
 const redirectUri = "https://austinnash11.github.io/jamming/";
 const atho = "https://accounts.spotify.com/authorize?";
 let accessToken;
-//const search = `https://api.spotify.com/v1/search?type=track&q=${searchSong}`;
 
 const Spotify = {
     getAccessToken() {

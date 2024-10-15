@@ -3,7 +3,7 @@ import React, {useState, useCallback} from 'react';
 import './App.css';
 import SearchBar from './SearchBar';
 import Playlist from './Playlist';
-import Spotify from './api/Spotify'
+import Spotify from './api/Spotify';
 import SearchResults from './SearchResults';
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
       setAddSong([]);
     }
     )
-  }, [addSong, playlistName])
+  }, [addSong, playlistName]);
 
   const search = useCallback((term) => {
     Spotify.search(term).then(setResult);
