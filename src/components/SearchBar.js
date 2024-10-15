@@ -22,12 +22,12 @@ function SearchBar({onSearch}){
 
     return(
         <div className = {styles.search}>
-            <form className = {styles.form} >
+            <div className = {styles.form} >
                 <div className = {styles.bar}>
                     <input type = "text" value = {searchSong} onChange = {handleChange} className = {styles.inputBar} size = '30' placeholder='Search a song' onKeyDown={handleKeyDown}/>
                     <button className ={styles.button} type = "button" onClick = {search}>Search</button>
                 </div>
-            </form>
+            </div>
         </div>
     );
 }
