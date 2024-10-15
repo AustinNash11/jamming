@@ -16,10 +16,25 @@
     color: aliceblue;
     border-bottom: 2px solid rgba(200, 194, 235, 0.87);
     border-radius: 5px;
+    width: 100%;
+}
+.imgContainer{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.image{
+    height: auto;
+    width: 50px;
+    margin-right: 5px;
+}
+.outerSongDiv{
+    width: 100%;
 }
 .song{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     font-weight: 600;
 }
 .addButton{
