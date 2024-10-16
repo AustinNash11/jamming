@@ -21,7 +21,7 @@ function App() {
       setPlaylistName('');
       setAddSong([]);
     }
-    )
+    );
   }, [addSong, playlistName]);
 
   const search = useCallback((term) => {
