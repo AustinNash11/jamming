@@ -1,5 +1,5 @@
 const clientId = "0abba87051bf4687944aeb99af6d15c9";
-const redirectUri = "https://austinnash11.github.io/jamming/";
+const redirectUri = "https://theplaylistgenerator.netlify.app";
 let accessToken;
 
 const Spotify = {
