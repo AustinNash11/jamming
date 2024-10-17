@@ -61,7 +61,8 @@ function SearchResults({result, setAddSong, setAddedSongUri}){
                         <div className = {styles.imgContainer}>
 
                             <img src={object.image} className={styles.image} 
-                            onClick = {()=>handleClick(object)}/>
+                            onClick = {()=>handleClick(object)}
+                            alt = {object.name}/>
 
                             <div className = {styles.outerSongDiv}>
                                 <div className = {styles.song}>
